@@ -16,8 +16,9 @@ Simulation of a nearly net-zero GHG-emission neighbourhood, with distributed hyd
   - If still no splash-screen appears, then you might be able to fix it by menu option **File > Options > Trust Center > Trust Center Settings > Macro Settings > Disable all macros with notification**, which is a suitable level of security.
 
 ### License & warranty
-- Distributed under the GLP v3 lisence (https://www.gnu.org/licenses/gpl-3.0.en.html). Please acknowledge/attribute use of this software in your report/publication with an appropriate author citation and URL to this site.
-- Provided without warranty of any kind.
+- Distributed free under the "CC BY-SA 4.0" lisence (https://creativecommons.org/licenses/by-sa/4.0/). BY-SA is Attribute-ShareAlike but does not require source-code disclosure. Provided without warranty of any kind.
+- Please acknowledge/attribute use of this software in your report/publication with an appropriate author citation and URL to this site.
+- If you wish to apply or elaborate on this model in your research, you are welcome to contact the author below.
 
 ### Author & copyright owner
 © Peter.Schild@OsloMet.no
