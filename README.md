@@ -2,7 +2,7 @@
 Simulation of a nearly net-zero GHG-emission neighbourhood, with distributed hydronic heating &amp; cooling, and building-integrated PV electricity generation.
 
 ### Functionality
-- This program can simulate a neighbourhood consisting multiple building categories, using one year of hourly climate data (EPW weather data file). It summates the net water-borne heat demand (split between high temperature, i.e. domestic hot water, and low-temperature, i.e. space heating & ventilation heating coil), water-borne cooling demand (space cooling & ventilation cooling coil), and net electric demand (+ve) or production (-ve) in energy-distrubution hubs (nodes) in the neighbourhood.
+- This program can simulate a whole neighbourhood consisting of multiple building categories, using one year of hourly climate data (EPW weather data file). It summates the net water-borne heat demand (split between high temperature, i.e. domestic hot water, and low-temperature, i.e. space heating & ventilation heating coil), water-borne cooling demand (space cooling & ventilation cooling coil), and net electric demand (+ve) or production from building-integrated PV-panels (-ve), for multiple energy-distrubution hubs (nodes) in the neighbourhood.
 - The building model is singe-zone thermal model that has been validated against EN 15265 & BESTEST.
 - Infiltration heat loss is estimated using the LBL infiltration model.
 - Photovoltaic systems are modelled in accordance with EN 15316-4-6, with the Perez anisotropic sky model, and  added possibility of battery storage (e.g. electric cars).
