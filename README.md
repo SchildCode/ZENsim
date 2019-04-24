@@ -2,10 +2,12 @@
 Simulation of a nearly net-zero GHG-emission neighbourhood, with distributed hydronic heating &amp; cooling, and building-integrated PV electricity generation.
 
 ### Functionality
-- This program can simulate a whole neighbourhood consisting of multiple building categories, using one year of hourly climate data (EPW weather data file). It summates the net water-borne heat demand (split between high temperature, i.e. domestic hot water, and low-temperature, i.e. space heating & ventilation heating coil), water-borne cooling demand (space cooling & ventilation cooling coil), and net electric demand (+ve) or production from building-integrated PV-panels (-ve), for multiple energy-distrubution hubs (nodes) in the neighbourhood.
+- This program can simulate a whole neighbourhood consisting of multiple building categories, using hourly climate data. It summates the net water-borne heat demand (split between high temperature, i.e. domestic hot water, and low-temperature, i.e. space heating & ventilation heating coil), water-borne cooling demand (space cooling & ventilation cooling coil), and net electric demand (+ve) or production from building-integrated PV-panels (-ve), for multiple energy-distrubution hubs (nodes) in the neighbourhood. Electric loads are split between indoors (heat gain from lighting and equipment) and outdoors loads (e.g. outdoor lighting, car charging).
 - The building model is singe-zone thermal model that has been validated against EN 15265 & BESTEST.
 - Infiltration heat loss is estimated using the LBL infiltration model.
 - Photovoltaic systems are modelled in accordance with EN 15316-4-6, with the Perez anisotropic sky model, and  added possibility of battery storage (e.g. electric cars).
+- Loads can be stochastic, assuming a log-normal distribution. The standard deviation is defined in a 24-hour schedule for weekdays and weekends.
+- Reads EPW climate data files (can be downloaded from https://energyplus.net/weather). One year of hour climate data is simulated for 7 consecutive years, so that peak loads are simulated on all 7 days of the week. You can also simulate climate change by morphing exsisting EPW files using online applications.
 
 ### Installation and activation
 - Simply download the spreadsheet file and open it in Microsoft Excel. No installation or registration is needed.
